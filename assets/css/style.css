@@ -119,4 +119,16 @@ footer{
     .nav-toggle-label{
         display: none;
     }
+    #logo{
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+/* main content */
+/*Push main content down to avoid being hidden behind fixed header*/
+main{
+    margin-top: 79px;
+
+}
+
 }
