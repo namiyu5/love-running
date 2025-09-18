@@ -90,6 +90,7 @@ main{
     background-color: lightblue;
     /* This makes the main content area flexible and allows it to grow and shrink as needed */
     flex: 1 0 auto; 
+    margin-top: 47px;
 }
 
 /* Footer */
