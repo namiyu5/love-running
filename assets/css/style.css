@@ -213,6 +213,14 @@ main{
     color: #3a3a3a;
 }
 
+/*Media Queries for large and landscape phones- 576px and up*/
+@media screen and (min-width: 576px){
+    #photos{
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /*Media Queries for tablets and larger*/
 @media screen and (min-width: 768px){
    /*Header*/
@@ -267,6 +275,11 @@ width: 75%;
     align-self: flex-end;
 }
 
+/*Gallery Section*/
+#photos{
+    column-count: 3;
+}
+
 }
 
 /*Media Queries for laptops and larger devices*/
@@ -295,5 +308,9 @@ width: 75%;
 }
 #benefits-physical > div{
    align-self: flex-end;
+}
+/* gallery section */
+#photos{
+    column-count: 4;
 }
 }
